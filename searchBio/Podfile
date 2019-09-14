@@ -6,8 +6,5 @@ target 'searchBio' do
   use_frameworks!
 
   # Pods for searchBio
-  pod 'Firebase/Analytics'
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
-  pod 'Firebase/Database'
+ 
 end
