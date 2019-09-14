@@ -17,6 +17,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var EmailText: UITextField!
     @IBOutlet weak var PasswordText: UITextField!
     
+    var id: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -55,8 +57,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func LoginButton(_ sender: Any) {
         let email = EmailText.text!
         let password = PasswordText.text!
+        let addressSign = email.firstIndex(of: "@")
+        id = String(email.prefix(upTo: addressSign!))
         Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
             if let u = user {
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
                 print("sign in")
             } else {
                 var error = UIAlertController(title: "Incorrect email or password", message: nil, preferredStyle: .alert)
@@ -74,5 +79,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         performSegue(withIdentifier: "SignUpSegue", sender: nil)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "loginSegue" {
+            let searchView = segue.destination as! SearchViewController
+            searchView.id = self.id
+        }
+    }
 }
 

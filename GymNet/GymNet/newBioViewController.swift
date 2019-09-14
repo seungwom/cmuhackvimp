@@ -31,7 +31,7 @@ class newBioViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     var ref: DatabaseReference!
     var handle: DatabaseHandle!
     var id: String?
-    var goal: String?
+    var goal: (String?, Int?)
     var sex: String?
     
     let goals = ["Strength", "Cardio", "Lose weight", "Gain weight"]
@@ -45,8 +45,8 @@ class newBioViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        goal = goals[row]
-        return goal
+        goal = (goals[row], row)
+        return goals[row]
     }
     
     override func viewDidLoad() {
@@ -137,6 +137,12 @@ class newBioViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     }
     @IBAction func nextButton(_ sender: Any) {
         saveBio()
+        performSegue(withIdentifier: "completeBioSegue", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let searchController = segue.destination as! SearchViewController
+        searchController.id = self.id
     }
     
     

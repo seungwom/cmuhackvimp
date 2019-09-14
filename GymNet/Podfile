@@ -12,6 +12,7 @@ target 'GymNet' do
   pod 'Firebase/Auth'
   pod 'Firebase/Analytics'
 
+
   target 'GymNetTests' do
     inherit! :search_paths
     # Pods for testing

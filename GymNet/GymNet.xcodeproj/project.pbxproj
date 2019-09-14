@@ -18,6 +18,10 @@
 		585A47D4232CA8D000BD8057 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47D3232CA8D000BD8057 /* SignUpViewController.swift */; };
 		585A47D6232CC60D00BD8057 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 585A47D5232CC60D00BD8057 /* GoogleService-Info.plist */; };
 		585A47D9232CFEBD00BD8057 /* newBioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47D8232CFEBD00BD8057 /* newBioViewController.swift */; };
+		585A47DB232D80C400BD8057 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47DA232D80C400BD8057 /* ProfileViewController.swift */; };
+		585A47DD232D80DA00BD8057 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47DC232D80DA00BD8057 /* SearchViewController.swift */; };
+		585A47DF232D811100BD8057 /* PrefTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47DE232D811100BD8057 /* PrefTableTableViewController.swift */; };
+		585A47E1232D879500BD8057 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47E0232D879500BD8057 /* MyProfileViewController.swift */; };
 		A55CF9F0F3E26E9D059C81B8 /* Pods_GymNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296B71A62E5428302D66F88F /* Pods_GymNetTests.framework */; };
 		B01FD4B0F8F7859E11269EB7 /* Pods_GymNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A745B050441C9132946DD1DE /* Pods_GymNet.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +65,10 @@
 		585A47D5232CC60D00BD8057 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		585A47D7232CEE3F00BD8057 /* GymNet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GymNet.entitlements; sourceTree = "<group>"; };
 		585A47D8232CFEBD00BD8057 /* newBioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newBioViewController.swift; sourceTree = "<group>"; };
+		585A47DA232D80C400BD8057 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		585A47DC232D80DA00BD8057 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		585A47DE232D811100BD8057 /* PrefTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefTableTableViewController.swift; sourceTree = "<group>"; };
+		585A47E0232D879500BD8057 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		9E15CAC25BA2BC99D52AD676 /* Pods_GymNetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEDAF1645D33F88EACF72AD /* Pods-GymNetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNetUITests.debug.xcconfig"; path = "Target Support Files/Pods-GymNetUITests/Pods-GymNetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A34FC432E1B514B28214CAB8 /* Pods-GymNetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNetTests.debug.xcconfig"; path = "Target Support Files/Pods-GymNetTests/Pods-GymNetTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +158,10 @@
 				585A47D3232CA8D000BD8057 /* SignUpViewController.swift */,
 				585A47D8232CFEBD00BD8057 /* newBioViewController.swift */,
 				585A47A9232C98EF00BD8057 /* Main.storyboard */,
+				585A47E0232D879500BD8057 /* MyProfileViewController.swift */,
+				585A47DE232D811100BD8057 /* PrefTableTableViewController.swift */,
+				585A47DC232D80DA00BD8057 /* SearchViewController.swift */,
+				585A47DA232D80C400BD8057 /* ProfileViewController.swift */,
 				585A47AC232C98F000BD8057 /* Assets.xcassets */,
 				585A47AE232C98F000BD8057 /* LaunchScreen.storyboard */,
 				585A47D5232CC60D00BD8057 /* GoogleService-Info.plist */,
@@ -403,9 +415,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585A47DD232D80DA00BD8057 /* SearchViewController.swift in Sources */,
 				585A47D9232CFEBD00BD8057 /* newBioViewController.swift in Sources */,
+				585A47DF232D811100BD8057 /* PrefTableTableViewController.swift in Sources */,
 				585A47D4232CA8D000BD8057 /* SignUpViewController.swift in Sources */,
+				585A47DB232D80C400BD8057 /* ProfileViewController.swift in Sources */,
 				585A47A8232C98EF00BD8057 /* ViewController.swift in Sources */,
+				585A47E1232D879500BD8057 /* MyProfileViewController.swift in Sources */,
 				585A47A6232C98EF00BD8057 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,7 +531,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
