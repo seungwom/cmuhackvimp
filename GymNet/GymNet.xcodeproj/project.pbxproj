@@ -148,8 +148,8 @@
 				585A47A5232C98EF00BD8057 /* AppDelegate.swift */,
 				585A47A7232C98EF00BD8057 /* ViewController.swift */,
 				585A47D3232CA8D000BD8057 /* SignUpViewController.swift */,
-				585A47A9232C98EF00BD8057 /* Main.storyboard */,
 				585A47D8232CFEBD00BD8057 /* newBioViewController.swift */,
+				585A47A9232C98EF00BD8057 /* Main.storyboard */,
 				585A47AC232C98F000BD8057 /* Assets.xcassets */,
 				585A47AE232C98F000BD8057 /* LaunchScreen.storyboard */,
 				585A47D5232CC60D00BD8057 /* GoogleService-Info.plist */,
@@ -584,7 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GymNet/GymNet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F9L2DBT5RY;
 				INFOPLIST_FILE = GymNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -604,7 +604,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GymNet/GymNet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F9L2DBT5RY;
 				INFOPLIST_FILE = GymNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

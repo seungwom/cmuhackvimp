@@ -22,6 +22,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     
     var ref: DatabaseReference!
     var handle: DatabaseHandle!
+    var userID: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,19 +68,34 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         let email = EmailText.text!
         let password = PasswordText.text!
         
-
+        let addressSign = email.firstIndex(of: "@")
+        userID = String(email.prefix(upTo: addressSign!))
         
         Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
             if user != nil {
-                self.ref.child("users").childByAutoId().setValue(["Email" : email, "Password" : password])
+                self.ref.child("users").child(self.userID).setValue(["Email" : email, "Password" : password])
                 self.handle = self.ref?.child("users").observe(.childAdded, with: { (snapshot) in
                     print(snapshot)
                 })
                 print("signed up")
                 self.performSegue(withIdentifier: "newBioSegue", sender: nil)
             } else {
+                var error = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                let action = UIAlertAction(title: "Okay", style: .default, handler: nil)
+                error.addAction(action)
+                self.present(error, animated: true, completion: nil)
+                self.EmailText.text = ""
+                self.PasswordText.text = ""
+                self.ConfirmPasswordText.text = ""
                 print(error)
             }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "newBioSegue" {
+            let newBio = segue.destination as! newBioViewController
+            newBio.id = self.userID
         }
     }
     
