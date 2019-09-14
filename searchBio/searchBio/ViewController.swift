@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet var search: UIView!
     @IBOutlet var titlename: UIView!
+    @IBOutlet weak var table: UITableView!
+    //@IBOutlet weak var collect: UICollectionViewCell!
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,7 +29,7 @@ class ViewController: UIViewController {
     
     @objc func buttonAction(sender: UIButton!) {
         print("Button tapped")
-        //performSegue(withIdentifier: "toNextPage", sender: nil)
+        performSegue(withIdentifier: "toNextPage", sender: nil)
     }
     
 
