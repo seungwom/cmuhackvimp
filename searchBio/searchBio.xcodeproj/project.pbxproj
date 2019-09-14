@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494667EA60BF4E1144F667C0 /* Pods_searchBio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AEF593D1D2BD5972089F75 /* Pods_searchBio.framework */; };
 		BF204D3C232CF0F600AC4E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF204D3B232CF0F600AC4E0E /* AppDelegate.swift */; };
 		BF204D3E232CF0F600AC4E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF204D3D232CF0F600AC4E0E /* ViewController.swift */; };
 		BF204D41232CF0F600AC4E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF204D3F232CF0F600AC4E0E /* Main.storyboard */; };
 		BF204D43232CF0F700AC4E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF204D42232CF0F700AC4E0E /* Assets.xcassets */; };
 		BF204D46232CF0F700AC4E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF204D44232CF0F700AC4E0E /* LaunchScreen.storyboard */; };
+		BF204D4E232D435700AC4E0E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF204D4D232D435700AC4E0E /* ViewController2.swift */; };
+		BF204D50232D5E7500AC4E0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF204D4F232D5E7500AC4E0E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45D481314A28E8143B95174D /* Pods-searchBio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchBio.debug.xcconfig"; path = "Target Support Files/Pods-searchBio/Pods-searchBio.debug.xcconfig"; sourceTree = "<group>"; };
 		BF204D38232CF0F600AC4E0E /* searchBio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchBio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF204D3B232CF0F600AC4E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF204D3D232CF0F600AC4E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		BF204D42232CF0F700AC4E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF204D45232CF0F700AC4E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF204D47232CF0F700AC4E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF204D4D232D435700AC4E0E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BF204D4F232D5E7500AC4E0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD3F5E71B2C0889747983B1E /* Pods-searchBio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchBio.release.xcconfig"; path = "Target Support Files/Pods-searchBio/Pods-searchBio.release.xcconfig"; sourceTree = "<group>"; };
+		D9AEF593D1D2BD5972089F75 /* Pods_searchBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_searchBio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494667EA60BF4E1144F667C0 /* Pods_searchBio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				BF204D3A232CF0F600AC4E0E /* searchBio */,
 				BF204D39232CF0F600AC4E0E /* Products */,
+				DB155F80D20787B7DE9FFF8B /* Pods */,
+				C705AC250F66A1337492FCB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +68,31 @@
 				BF204D3B232CF0F600AC4E0E /* AppDelegate.swift */,
 				BF204D3D232CF0F600AC4E0E /* ViewController.swift */,
 				BF204D3F232CF0F600AC4E0E /* Main.storyboard */,
+				BF204D4D232D435700AC4E0E /* ViewController2.swift */,
 				BF204D42232CF0F700AC4E0E /* Assets.xcassets */,
 				BF204D44232CF0F700AC4E0E /* LaunchScreen.storyboard */,
 				BF204D47232CF0F700AC4E0E /* Info.plist */,
+				BF204D4F232D5E7500AC4E0E /* GoogleService-Info.plist */,
 			);
 			path = searchBio;
+			sourceTree = "<group>";
+		};
+		C705AC250F66A1337492FCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEF593D1D2BD5972089F75 /* Pods_searchBio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB155F80D20787B7DE9FFF8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45D481314A28E8143B95174D /* Pods-searchBio.debug.xcconfig */,
+				CD3F5E71B2C0889747983B1E /* Pods-searchBio.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF204D4A232CF0F700AC4E0E /* Build configuration list for PBXNativeTarget "searchBio" */;
 			buildPhases = (
+				9657F354DEEEE3006610AE8B /* [CP] Check Pods Manifest.lock */,
 				BF204D34232CF0F600AC4E0E /* Sources */,
 				BF204D35232CF0F600AC4E0E /* Frameworks */,
 				BF204D36232CF0F600AC4E0E /* Resources */,
@@ -123,12 +155,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF204D46232CF0F700AC4E0E /* LaunchScreen.storyboard in Resources */,
+				BF204D50232D5E7500AC4E0E /* GoogleService-Info.plist in Resources */,
 				BF204D43232CF0F700AC4E0E /* Assets.xcassets in Resources */,
 				BF204D41232CF0F600AC4E0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9657F354DEEEE3006610AE8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-searchBio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF204D34232CF0F600AC4E0E /* Sources */ = {
@@ -137,6 +195,7 @@
 			files = (
 				BF204D3E232CF0F600AC4E0E /* ViewController.swift in Sources */,
 				BF204D3C232CF0F600AC4E0E /* AppDelegate.swift in Sources */,
+				BF204D4E232D435700AC4E0E /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +339,7 @@
 		};
 		BF204D4B232CF0F700AC4E0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D481314A28E8143B95174D /* Pods-searchBio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +357,7 @@
 		};
 		BF204D4C232CF0F700AC4E0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3F5E71B2C0889747983B1E /* Pods-searchBio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

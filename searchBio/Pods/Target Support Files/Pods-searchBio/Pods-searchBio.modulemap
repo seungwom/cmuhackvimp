@@ -1,0 +1,6 @@
+framework module Pods_searchBio {
+  umbrella header "Pods-searchBio-umbrella.h"
+
+  export *
+  module * { export * }
+}
