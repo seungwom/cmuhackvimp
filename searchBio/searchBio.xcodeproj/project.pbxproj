@@ -13,6 +13,7 @@
 		BF204D43232CF0F700AC4E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF204D42232CF0F700AC4E0E /* Assets.xcassets */; };
 		BF204D46232CF0F700AC4E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF204D44232CF0F700AC4E0E /* LaunchScreen.storyboard */; };
 		BF204D4E232D435700AC4E0E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF204D4D232D435700AC4E0E /* ViewController2.swift */; };
+		BF204D50232D5E7500AC4E0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF204D4F232D5E7500AC4E0E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF204D45232CF0F700AC4E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF204D47232CF0F700AC4E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF204D4D232D435700AC4E0E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BF204D4F232D5E7500AC4E0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BF204D42232CF0F700AC4E0E /* Assets.xcassets */,
 				BF204D44232CF0F700AC4E0E /* LaunchScreen.storyboard */,
 				BF204D47232CF0F700AC4E0E /* Info.plist */,
+				BF204D4F232D5E7500AC4E0E /* GoogleService-Info.plist */,
 			);
 			path = searchBio;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF204D46232CF0F700AC4E0E /* LaunchScreen.storyboard in Resources */,
+				BF204D50232D5E7500AC4E0E /* GoogleService-Info.plist in Resources */,
 				BF204D43232CF0F700AC4E0E /* Assets.xcassets in Resources */,
 				BF204D41232CF0F600AC4E0E /* Main.storyboard in Resources */,
 			);
