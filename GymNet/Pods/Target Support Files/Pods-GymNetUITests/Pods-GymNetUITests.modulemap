@@ -1,0 +1,6 @@
+framework module Pods_GymNetUITests {
+  umbrella header "Pods-GymNetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

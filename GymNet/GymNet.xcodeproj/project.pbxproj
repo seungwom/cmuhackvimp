@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447DBED8E85380A98450787D /* Pods_GymNetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E15CAC25BA2BC99D52AD676 /* Pods_GymNetUITests.framework */; };
+		585A47A6232C98EF00BD8057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47A5232C98EF00BD8057 /* AppDelegate.swift */; };
+		585A47A8232C98EF00BD8057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47A7232C98EF00BD8057 /* ViewController.swift */; };
+		585A47AB232C98EF00BD8057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585A47A9232C98EF00BD8057 /* Main.storyboard */; };
+		585A47AD232C98F000BD8057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585A47AC232C98F000BD8057 /* Assets.xcassets */; };
+		585A47B0232C98F000BD8057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585A47AE232C98F000BD8057 /* LaunchScreen.storyboard */; };
+		585A47BB232C98F000BD8057 /* GymNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47BA232C98F000BD8057 /* GymNetTests.swift */; };
+		585A47C6232C98F000BD8057 /* GymNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47C5232C98F000BD8057 /* GymNetUITests.swift */; };
+		585A47D4232CA8D000BD8057 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47D3232CA8D000BD8057 /* SignUpViewController.swift */; };
+		585A47D6232CC60D00BD8057 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 585A47D5232CC60D00BD8057 /* GoogleService-Info.plist */; };
+		585A47D9232CFEBD00BD8057 /* newBioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A47D8232CFEBD00BD8057 /* newBioViewController.swift */; };
+		A55CF9F0F3E26E9D059C81B8 /* Pods_GymNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296B71A62E5428302D66F88F /* Pods_GymNetTests.framework */; };
+		B01FD4B0F8F7859E11269EB7 /* Pods_GymNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A745B050441C9132946DD1DE /* Pods_GymNet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585A47B7232C98F000BD8057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585A479A232C98EF00BD8057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585A47A1232C98EF00BD8057;
+			remoteInfo = GymNet;
+		};
+		585A47C2232C98F000BD8057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585A479A232C98EF00BD8057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585A47A1232C98EF00BD8057;
+			remoteInfo = GymNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F6E7E951B2114310062AF2 /* Pods-GymNetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNetUITests.release.xcconfig"; path = "Target Support Files/Pods-GymNetUITests/Pods-GymNetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		296B71A62E5428302D66F88F /* Pods_GymNetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2969A3598C302DD7988CFB /* Pods-GymNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNet.debug.xcconfig"; path = "Target Support Files/Pods-GymNet/Pods-GymNet.debug.xcconfig"; sourceTree = "<group>"; };
+		47F8001C97A710C7A47E122A /* Pods-GymNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNet.release.xcconfig"; path = "Target Support Files/Pods-GymNet/Pods-GymNet.release.xcconfig"; sourceTree = "<group>"; };
+		585A47A2232C98EF00BD8057 /* GymNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585A47A5232C98EF00BD8057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		585A47A7232C98EF00BD8057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		585A47AA232C98EF00BD8057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		585A47AC232C98F000BD8057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585A47AF232C98F000BD8057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		585A47B1232C98F000BD8057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585A47B6232C98F000BD8057 /* GymNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585A47BA232C98F000BD8057 /* GymNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNetTests.swift; sourceTree = "<group>"; };
+		585A47BC232C98F000BD8057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585A47C1232C98F000BD8057 /* GymNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585A47C5232C98F000BD8057 /* GymNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNetUITests.swift; sourceTree = "<group>"; };
+		585A47C7232C98F000BD8057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585A47D3232CA8D000BD8057 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		585A47D5232CC60D00BD8057 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		585A47D7232CEE3F00BD8057 /* GymNet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GymNet.entitlements; sourceTree = "<group>"; };
+		585A47D8232CFEBD00BD8057 /* newBioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newBioViewController.swift; sourceTree = "<group>"; };
+		9E15CAC25BA2BC99D52AD676 /* Pods_GymNetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEDAF1645D33F88EACF72AD /* Pods-GymNetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNetUITests.debug.xcconfig"; path = "Target Support Files/Pods-GymNetUITests/Pods-GymNetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A34FC432E1B514B28214CAB8 /* Pods-GymNetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNetTests.debug.xcconfig"; path = "Target Support Files/Pods-GymNetTests/Pods-GymNetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A745B050441C9132946DD1DE /* Pods_GymNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F733CC8BBA90869708FB7E9E /* Pods-GymNetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNetTests.release.xcconfig"; path = "Target Support Files/Pods-GymNetTests/Pods-GymNetTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585A479F232C98EF00BD8057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01FD4B0F8F7859E11269EB7 /* Pods_GymNet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585A47B3232C98F000BD8057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55CF9F0F3E26E9D059C81B8 /* Pods_GymNetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585A47BE232C98F000BD8057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447DBED8E85380A98450787D /* Pods_GymNetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0080296C978134D2B9CC5D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A745B050441C9132946DD1DE /* Pods_GymNet.framework */,
+				296B71A62E5428302D66F88F /* Pods_GymNetTests.framework */,
+				9E15CAC25BA2BC99D52AD676 /* Pods_GymNetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A58A47426E5EDDA6113CCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A2969A3598C302DD7988CFB /* Pods-GymNet.debug.xcconfig */,
+				47F8001C97A710C7A47E122A /* Pods-GymNet.release.xcconfig */,
+				A34FC432E1B514B28214CAB8 /* Pods-GymNetTests.debug.xcconfig */,
+				F733CC8BBA90869708FB7E9E /* Pods-GymNetTests.release.xcconfig */,
+				9FEDAF1645D33F88EACF72AD /* Pods-GymNetUITests.debug.xcconfig */,
+				13F6E7E951B2114310062AF2 /* Pods-GymNetUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		585A4799232C98EF00BD8057 = {
+			isa = PBXGroup;
+			children = (
+				585A47A4232C98EF00BD8057 /* GymNet */,
+				585A47B9232C98F000BD8057 /* GymNetTests */,
+				585A47C4232C98F000BD8057 /* GymNetUITests */,
+				585A47A3232C98EF00BD8057 /* Products */,
+				25A58A47426E5EDDA6113CCF /* Pods */,
+				0080296C978134D2B9CC5D64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		585A47A3232C98EF00BD8057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585A47A2232C98EF00BD8057 /* GymNet.app */,
+				585A47B6232C98F000BD8057 /* GymNetTests.xctest */,
+				585A47C1232C98F000BD8057 /* GymNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585A47A4232C98EF00BD8057 /* GymNet */ = {
+			isa = PBXGroup;
+			children = (
+				585A47D7232CEE3F00BD8057 /* GymNet.entitlements */,
+				585A47A5232C98EF00BD8057 /* AppDelegate.swift */,
+				585A47A7232C98EF00BD8057 /* ViewController.swift */,
+				585A47D3232CA8D000BD8057 /* SignUpViewController.swift */,
+				585A47A9232C98EF00BD8057 /* Main.storyboard */,
+				585A47D8232CFEBD00BD8057 /* newBioViewController.swift */,
+				585A47AC232C98F000BD8057 /* Assets.xcassets */,
+				585A47AE232C98F000BD8057 /* LaunchScreen.storyboard */,
+				585A47D5232CC60D00BD8057 /* GoogleService-Info.plist */,
+				585A47B1232C98F000BD8057 /* Info.plist */,
+			);
+			path = GymNet;
+			sourceTree = "<group>";
+		};
+		585A47B9232C98F000BD8057 /* GymNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				585A47BA232C98F000BD8057 /* GymNetTests.swift */,
+				585A47BC232C98F000BD8057 /* Info.plist */,
+			);
+			path = GymNetTests;
+			sourceTree = "<group>";
+		};
+		585A47C4232C98F000BD8057 /* GymNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585A47C5232C98F000BD8057 /* GymNetUITests.swift */,
+				585A47C7232C98F000BD8057 /* Info.plist */,
+			);
+			path = GymNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585A47A1232C98EF00BD8057 /* GymNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585A47CA232C98F000BD8057 /* Build configuration list for PBXNativeTarget "GymNet" */;
+			buildPhases = (
+				6822D0B243D22AD183824DC4 /* [CP] Check Pods Manifest.lock */,
+				585A479E232C98EF00BD8057 /* Sources */,
+				585A479F232C98EF00BD8057 /* Frameworks */,
+				585A47A0232C98EF00BD8057 /* Resources */,
+				C64C05CA8B27698B70F0A14C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymNet;
+			productName = GymNet;
+			productReference = 585A47A2232C98EF00BD8057 /* GymNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585A47B5232C98F000BD8057 /* GymNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585A47CD232C98F000BD8057 /* Build configuration list for PBXNativeTarget "GymNetTests" */;
+			buildPhases = (
+				AA3CB4B5E82CAE1E169A30AC /* [CP] Check Pods Manifest.lock */,
+				585A47B2232C98F000BD8057 /* Sources */,
+				585A47B3232C98F000BD8057 /* Frameworks */,
+				585A47B4232C98F000BD8057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585A47B8232C98F000BD8057 /* PBXTargetDependency */,
+			);
+			name = GymNetTests;
+			productName = GymNetTests;
+			productReference = 585A47B6232C98F000BD8057 /* GymNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		585A47C0232C98F000BD8057 /* GymNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585A47D0232C98F000BD8057 /* Build configuration list for PBXNativeTarget "GymNetUITests" */;
+			buildPhases = (
+				683D61E2409957203ACE727C /* [CP] Check Pods Manifest.lock */,
+				585A47BD232C98F000BD8057 /* Sources */,
+				585A47BE232C98F000BD8057 /* Frameworks */,
+				585A47BF232C98F000BD8057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585A47C3232C98F000BD8057 /* PBXTargetDependency */,
+			);
+			name = GymNetUITests;
+			productName = GymNetUITests;
+			productReference = 585A47C1232C98F000BD8057 /* GymNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585A479A232C98EF00BD8057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Iris Lu";
+				TargetAttributes = {
+					585A47A1232C98EF00BD8057 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					585A47B5232C98F000BD8057 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 585A47A1232C98EF00BD8057;
+					};
+					585A47C0232C98F000BD8057 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 585A47A1232C98EF00BD8057;
+					};
+				};
+			};
+			buildConfigurationList = 585A479D232C98EF00BD8057 /* Build configuration list for PBXProject "GymNet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585A4799232C98EF00BD8057;
+			productRefGroup = 585A47A3232C98EF00BD8057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585A47A1232C98EF00BD8057 /* GymNet */,
+				585A47B5232C98F000BD8057 /* GymNetTests */,
+				585A47C0232C98F000BD8057 /* GymNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585A47A0232C98EF00BD8057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A47B0232C98F000BD8057 /* LaunchScreen.storyboard in Resources */,
+				585A47D6232CC60D00BD8057 /* GoogleService-Info.plist in Resources */,
+				585A47AD232C98F000BD8057 /* Assets.xcassets in Resources */,
+				585A47AB232C98EF00BD8057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585A47B4232C98F000BD8057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585A47BF232C98F000BD8057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6822D0B243D22AD183824DC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymNet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683D61E2409957203ACE727C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymNetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA3CB4B5E82CAE1E169A30AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymNetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64C05CA8B27698B70F0A14C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymNet/Pods-GymNet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymNet/Pods-GymNet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymNet/Pods-GymNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585A479E232C98EF00BD8057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A47D9232CFEBD00BD8057 /* newBioViewController.swift in Sources */,
+				585A47D4232CA8D000BD8057 /* SignUpViewController.swift in Sources */,
+				585A47A8232C98EF00BD8057 /* ViewController.swift in Sources */,
+				585A47A6232C98EF00BD8057 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585A47B2232C98F000BD8057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A47BB232C98F000BD8057 /* GymNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585A47BD232C98F000BD8057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A47C6232C98F000BD8057 /* GymNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585A47B8232C98F000BD8057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585A47A1232C98EF00BD8057 /* GymNet */;
+			targetProxy = 585A47B7232C98F000BD8057 /* PBXContainerItemProxy */;
+		};
+		585A47C3232C98F000BD8057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585A47A1232C98EF00BD8057 /* GymNet */;
+			targetProxy = 585A47C2232C98F000BD8057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		585A47A9232C98EF00BD8057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585A47AA232C98EF00BD8057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585A47AE232C98F000BD8057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585A47AF232C98F000BD8057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585A47C8232C98F000BD8057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		585A47C9232C98F000BD8057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585A47CB232C98F000BD8057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2969A3598C302DD7988CFB /* Pods-GymNet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GymNet/GymNet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GymNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GymNet.GymNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585A47CC232C98F000BD8057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F8001C97A710C7A47E122A /* Pods-GymNet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GymNet/GymNet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GymNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GymNet.GymNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		585A47CE232C98F000BD8057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34FC432E1B514B28214CAB8 /* Pods-GymNetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9L2DBT5RY;
+				INFOPLIST_FILE = GymNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GymNet.GymNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymNet.app/GymNet";
+			};
+			name = Debug;
+		};
+		585A47CF232C98F000BD8057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F733CC8BBA90869708FB7E9E /* Pods-GymNetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9L2DBT5RY;
+				INFOPLIST_FILE = GymNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GymNet.GymNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymNet.app/GymNet";
+			};
+			name = Release;
+		};
+		585A47D1232C98F000BD8057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEDAF1645D33F88EACF72AD /* Pods-GymNetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9L2DBT5RY;
+				INFOPLIST_FILE = GymNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GymNet.GymNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymNet;
+			};
+			name = Debug;
+		};
+		585A47D2232C98F000BD8057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F6E7E951B2114310062AF2 /* Pods-GymNetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9L2DBT5RY;
+				INFOPLIST_FILE = GymNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GymNet.GymNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585A479D232C98EF00BD8057 /* Build configuration list for PBXProject "GymNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585A47C8232C98F000BD8057 /* Debug */,
+				585A47C9232C98F000BD8057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585A47CA232C98F000BD8057 /* Build configuration list for PBXNativeTarget "GymNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585A47CB232C98F000BD8057 /* Debug */,
+				585A47CC232C98F000BD8057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585A47CD232C98F000BD8057 /* Build configuration list for PBXNativeTarget "GymNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585A47CE232C98F000BD8057 /* Debug */,
+				585A47CF232C98F000BD8057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585A47D0232C98F000BD8057 /* Build configuration list for PBXNativeTarget "GymNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585A47D1232C98F000BD8057 /* Debug */,
+				585A47D2232C98F000BD8057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585A479A232C98EF00BD8057 /* Project object */;
+}
