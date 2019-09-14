@@ -16,6 +16,7 @@
 		BF906AFE232D6A1100F9FBD4 /* searchBio2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF906AFD232D6A1100F9FBD4 /* searchBio2Tests.swift */; };
 		BF906B09232D6A1100F9FBD4 /* searchBio2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF906B08232D6A1100F9FBD4 /* searchBio2UITests.swift */; };
 		BF906B17232D6A9E00F9FBD4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF906B16232D6A9E00F9FBD4 /* ViewController2.swift */; };
+		CDC52F87232D7B90004FA8E7 /* prefTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC52F86232D7B90004FA8E7 /* prefTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BF906B08232D6A1100F9FBD4 /* searchBio2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchBio2UITests.swift; sourceTree = "<group>"; };
 		BF906B0A232D6A1100F9FBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF906B16232D6A9E00F9FBD4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CDC52F86232D7B90004FA8E7 /* prefTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prefTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				BF906AE5232D6A1000F9FBD4 /* AppDelegate.swift */,
 				BF906AE7232D6A1000F9FBD4 /* ViewController.swift */,
-				BF906AE9232D6A1000F9FBD4 /* Main.storyboard */,
+				CDC52F86232D7B90004FA8E7 /* prefTableViewController.swift */,
 				BF906B16232D6A9E00F9FBD4 /* ViewController2.swift */,
+				BF906AE9232D6A1000F9FBD4 /* Main.storyboard */,
 				BF906AEF232D6A1100F9FBD4 /* Assets.xcassets */,
 				BF906AF1232D6A1100F9FBD4 /* LaunchScreen.storyboard */,
 				BF906AF4232D6A1100F9FBD4 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				BF906AE8232D6A1000F9FBD4 /* ViewController.swift in Sources */,
 				BF906B17232D6A9E00F9FBD4 /* ViewController2.swift in Sources */,
+				CDC52F87232D7B90004FA8E7 /* prefTableViewController.swift in Sources */,
 				BF906AEE232D6A1000F9FBD4 /* searchBio2.xcdatamodeld in Sources */,
 				BF906AE6232D6A1000F9FBD4 /* AppDelegate.swift in Sources */,
 			);

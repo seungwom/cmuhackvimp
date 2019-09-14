@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         let button = UIButton(frame: CGRect(x: 300, y:  150, width: 100, height: 50))
         button.backgroundColor = .black
-        button.setTitle("Test Button", for: .normal)
+        button.setTitle("Select", for: .normal)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         
         self.view.addSubview(button)
