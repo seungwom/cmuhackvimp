@@ -1,0 +1,6 @@
+framework module Pods_GymNet {
+  umbrella header "Pods-GymNet-umbrella.h"
+
+  export *
+  module * { export * }
+}
